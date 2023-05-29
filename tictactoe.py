@@ -2,12 +2,10 @@
 from tkinter import *
 
 player_turn = 1
-active_wins = 1
 
 
 def call_funcs(n1, plyr_turn):
-    if active_wins == 1:
-        verification_win()
+    verification_win()
     btn_pressed(n1, plyr_turn)
 
 
